@@ -1,0 +1,29 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    
+}
+
+#para_1 {
+    height: 300px;
+    background-color: white;
+}
+
+.parallax {
+    min-height: 1000px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image_1 {
+    background-image: url("../images/background_1.jpg");
+}
+ #image_2 {
+     background-image: url("../images/background_2.jpg");
+ }

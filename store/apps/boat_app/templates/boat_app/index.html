@@ -1,10 +1,23 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <link rel="stylesheet" href="{% static 'boat_app/stylesheets/style.css' %}">
+        <title>Parallax Testing</title>
     </head>
     <body>
-        <h1>HI</h1>
+        <p>Scroll</p>
+        <div class="parallax" id="image_1">
+            <div class="">
+                <h1 style="color:white">Another example</h1>
+            </div>
+        </div>
+        <div id="para_1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium rutrum eros, quis fringilla eros aliquet sit amet. Praesent tempus malesuada quam id sollicitudin. Maecenas placerat eleifend porta. Fusce ac libero metus. Curabitur arcu magna, egestas a varius vel, vestibulum quis risus. Nullam vel tincidunt ante. In aliquam, ipsum eu interdum fermentum, dui magna tincidunt metus, ac pharetra dolor nisi porta erat. Integer laoreet aliquam iaculis. Vivamus sed tortor vitae massa viverra vestibulum in nec ipsum. Vestibulum blandit, erat eget imperdiet eleifend, turpis purus dignissim magna, at pulvinar odio nulla vitae tortor. Integer rhoncus non urna feugiat facilisis. Proin sit amet nisl posuere, varius purus vel, sagittis mauris.
+        </div>
+        <div class="parallax" id="image_2">
+
+        </div>
     </body>
 </html>
