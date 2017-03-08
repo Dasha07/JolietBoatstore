@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'boat_app/stylesheets/contactstyle.css' %}">
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="contact_form">
+                <form class="" action="/contact/submit" method="post">
+                    {% csrf_token %}
+                    First Name *: <input type="text" name="f_name" value="{{ form.f_name }}">
+                    Last Name *: <input type="text" name="l_name" value="{{ form.l_name }}">
+                    Email *: <input type="text" name="email" value="{{ form.email }}">
+                    Phone Number: <input type="text" name="phone" value="{{ form.phone }}">
+                    Message *: <textarea name="message" rows="10" cols="80">{{ form.message }}</textarea>
+                    <input type="submit" name="contactBtn" value="Submit">
+                </form>
+            </div>
+            <div id="error_messages">
+                {% if messages %}
+                    {% for message in messages %}
+                        <br>
+                        <h5>{{message}}</h5>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>
