@@ -1,0 +1,30 @@
+.parallax {
+    /* Set a specific height */
+    height: 2000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_1 {
+    background-image: url("../images/Des_Plaines_River2C_Joliet2C_IL-1.jpg");
+}
+#parallax_2 {
+    background-image: url("../images/background_2.jpg");
+}
+
+#wrapper {
+    position: relative;
+    width: 970px;
+    z-index: 2;
+}
+.section {
+    height: 100%;
+    padding-top: 125px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}

@@ -1,22 +1,22 @@
 .parallax {
     /* Set a specific height */
-    min-height:  700px;
-
+    height:  100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .top-nav-collapse {
     padding: auto 15px;
 }
-
 #header {
     height: 75px;
     background-color: white !important;
 }
-
 .navHead {
     height: 75px;
     padding: 25px 25px 0px 25px !important;
@@ -26,20 +26,40 @@
     padding: 0 5px !important;
 }
 #logo {
-    height: 75px;
+    margin-top: 4px;
+    height: 70px;
     width: auto;
 }
-
 #parallax_1 {
     background-image: url("../images/Des_Plaines_River2C_Joliet2C_IL-1.jpg");
 }
-
 #parallax_2 {
     background-image: url("../images/background_2.jpg");
 }
-
 #welcome {
     text-align: center;
     padding-top: 300px;
     color: grey;
+}
+.content {
+    display: inline-block;
+    padding: 10px;
+    width: 250px;
+    height: 530px;
+    margin: 20px 10px 0 10px;
+    background-color: rgba(30, 120, 110, 0.56);
+    border-radius: 5px;
+    vertical-align: top;
+}
+.content_pic {
+    height: 150px;
+    width: 220px;
+    margin-top: 10px;
+}
+h3 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+p {
+    text-align: justify;
 }
