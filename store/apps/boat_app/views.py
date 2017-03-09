@@ -4,6 +4,7 @@ import smtplib
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.messages import get_messages
+from django.core.exceptions import ValidationError
 
 from django.core.mail import send_mail
 from email.mime.text import MIMEText
@@ -49,30 +50,6 @@ def submit_contact_form(request):
 
     if get_messages(request):
         return redirect('/contact')
-
-    # # Create a text/plain message
-    # msg = MIMEText(form['message'])
-    #
-    # # me == the sender's email address
-    # # you == the recipient's email address
-    # msg['Subject'] = 'The contents of %s' % msg
-    # msg['From'] = form['email']
-    # msg['To'] = 'ambrosecoc@gamil.com'
-    #
-    # # Send the message via our own SMTP server, but don't include the
-    # # envelope header.
-    # s = smtplib.SMTP('localhost:8000')
-    # s.sendmail(form['email'], ['ambrosecoc@gamil.com'], msg.as_string())
-    # s.quit()
-    # send_mail(
-    #     'Subject here',
-    #     form['message'],
-    #     'ambrosecoc@gmailcom',
-    #     ['ambrosecoc@gmail.com'],
-    #     fail_silently=False,
-    # )
-
-    return redirect('/contact')
 
 def test(request):
     return render(request, "boat_app/test.html")

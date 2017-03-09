@@ -11,6 +11,9 @@
 .top-nav-collapse {
     padding: auto 15px;
 }
+@-ms-viewport{
+  width: device-width;
+}
 
 #header {
     height: 75px;
@@ -35,7 +38,7 @@
 }
 
 #parallax_2 {
-    background-image: url("../images/background_2.jpg");
+    background-image: url("../images/Muon-move-river-2-mr.jpg");
 }
 
 #welcome {
