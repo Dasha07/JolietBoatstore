@@ -1,0 +1,45 @@
+.parallax {
+    /* Set a specific height */
+    min-height:  700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-nav-collapse {
+    padding: auto 15px;
+}
+
+#header {
+    height: 75px;
+    background-color: white !important;
+}
+
+.navHead {
+    height: 75px;
+    padding: 25px 25px 0px 25px !important;
+    text-align: center;
+}
+#logoBrand {
+    padding: 0 5px !important;
+}
+#logo {
+    height: 75px;
+    width: auto;
+}
+
+#parallax_1 {
+    background-image: url("../images/background_1.jpg");
+}
+
+#parallax_2 {
+    background-image: url("../images/background_2.jpg");
+}
+
+#welcome {
+    text-align: center;
+    padding-top: 300px;
+    color: grey;
+}

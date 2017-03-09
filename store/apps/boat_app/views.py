@@ -73,3 +73,6 @@ def submit_contact_form(request):
     # )
 
     return redirect('/contact')
+
+def test(request):
+    return render(request, "boat_app/test.html")
