@@ -9,14 +9,15 @@
     <body>
         <div id="wrapper">
             <div id="contact_form">
-                <form class="" action="/contact/submit" method="post">
+                <form action="https://formspree.io/dasha.daniyalian@gmail.com" method="Post">
                     {% csrf_token %}
-                    First Name *: <input type="text" name="f_name" value="{{ form.f_name }}">
-                    Last Name *: <input type="text" name="l_name" value="{{ form.l_name }}">
-                    Email *: <input type="text" name="email" value="{{ form.email }}">
-                    Phone Number: <input type="text" name="phone" value="{{ form.phone }}">
-                    Message *: <textarea name="message" rows="10" cols="80">{{ form.message }}</textarea>
-                    <input type="submit" name="contactBtn" value="Submit">
+                    First Name *: <input type="text" name="First_name" value="{{ form.f_name }}"></br></br>
+                    Last Name *: <input type="text" name="Last_name" value="{{ form.l_name }}"></br></br>
+                    Email *: <input type="email" name="_replyto" value="{{ form.email }}"></br></br>
+                    Phone Number: <input type="text" name="Phone" value="{{ form.phone }}"></br></br>
+                    Message *: <textarea name="Message" placeholder="Your message" rows="10" cols="80">{{ form.message }}</textarea></br></br>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="submit" value="Submit">
                 </form>
             </div>
             <div id="error_messages">
