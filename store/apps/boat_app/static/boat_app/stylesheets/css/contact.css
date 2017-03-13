@@ -76,6 +76,9 @@
 #map-canvas, .iframe {
   width: 100%;
   height: 135px;
-  margin-bottom: 15px;
+  margin-top: 15px;
   border: 2px solid #fff;
+}
+.maps iframe{
+    pointer-events: none;
 }
