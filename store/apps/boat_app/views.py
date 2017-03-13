@@ -28,14 +28,14 @@ def submit_contact_form(request):
         'l_name': request.POST['l_name'],
         'email': request.POST['email'],
         'phone': request.POST['phone'],
-        'essage': request.POST['message']
+        'message': request.POST['message']
     }
     request.session['form'] = form
     email_match = re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$', form['email'])
 
     phone_match = re.match('(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})', form['phone'])
 
-    if len(form['f_name']) < 2 or len(form['Last_name']) < 2:
+    if len(form['f_name']) < 2 or len(form['l_name']) < 2:
         messages.add_message(request, messages.INFO, 'First and Last Name must be at least 2 characters')
 
     if not email_match:
@@ -49,7 +49,7 @@ def submit_contact_form(request):
         messages.add_message(request, messages.INFO, 'Please enter a message to be sent')
 
     if get_messages(request):
-        return redirect('/contact')
+        return redirect('/#contact_us')
 
 def test(request):
     return render(request, "boat_app/test.html")
