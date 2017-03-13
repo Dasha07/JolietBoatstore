@@ -36,7 +36,7 @@
     width: auto;
 }
 #parallax_1 {
-    background-image: url("../images/Des_Plaines_River2C_Joliet2C_IL-1.jpg");
+    background-image: url("../images/osman-rana-193635.jpg");
 }
 #parallax_2 {
     background-image: url("../images/Muon-move-river-2-mr.jpg");
@@ -60,6 +60,45 @@
     height: 150px;
     width: 220px;
     margin-top: 10px;
+}
+.about_block {
+    display: inline-block;
+    width: 400px;
+    height: 460px;
+    margin: 0px 40px;
+    vertical-align: top;
+}
+#about_info {
+    text-align: left;
+}
+#about_info h1{
+    text-decoration: underline;
+}
+#about_info p {
+    font-size: 18px;
+    text-align: left;
+}
+#about_img {
+    background-color: white;
+}
+#services_header p{
+    text-align: center;
+}
+#services_header h1 {
+    text-decoration: underline;
+}
+.services_block {
+    height: 200px;
+    width: auto;
+}
+.services_link {
+    display: inline-block;
+    margin: 25px 100px;
+}
+.services_link img {
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
 }
 h3 {
     text-decoration: underline;
