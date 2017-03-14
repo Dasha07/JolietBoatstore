@@ -31,7 +31,6 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 0px;
     text-align: center;
-    background: #CECDD3;
 }
 
 #about {
@@ -41,7 +40,7 @@ of those sections to manage the look and feel of the site. */
 }
 #services {
     background: #CECDD3;
-    padding-top: -30px;
+    padding-top: -40px;
 }
 #contact {
     padding-top: 20px;

@@ -35,11 +35,13 @@
     height: 70px;
     width: auto;
 }
-#parallax_1 {
+#parallax_1, #parallax_4 {
     background-image: url("../images/home.jpg");
+    background-position: fixed;
 }
 #parallax_2, #parallax_3 {
     background-image: url("../images/services.jpg");
+    background-position: fixed;
 }
 #welcome {
     text-align: center;
@@ -90,10 +92,13 @@
 #services_bottom_row{
     margin-top: 50px;
 }
-
+img{
+    border: 2px solid white;
+}
 .services_block {
     height: 200px;
     width: auto;
+
 }
 .services_link {
     display: inline-block;
