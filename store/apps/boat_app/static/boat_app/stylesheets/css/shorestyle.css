@@ -1,0 +1,29 @@
+.shore_block {
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    margin: 0px 40px;
+    vertical-align: top;
+}
+#shore_info {
+    text-align: left;
+}
+#shore_info h1{
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+#shore_info p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.75;
+}
+#shore_img {
+    background-color: black;
+    margin-top: 60px;
+}
+.section {
+    padding-top: 100px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}

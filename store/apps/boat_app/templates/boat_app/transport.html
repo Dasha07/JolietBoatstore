@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/anchor.ico' %}">
+        <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/transportstyle.css' %}" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Testing</title>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container navbar-fixed-top" style="margin-left: 0px; padding-left:15px">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logoBrand" class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="{% static 'boat_app/stylesheets/images/logo.jpg' %}" alt="Joliet Boat Store"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li style="padding:25px 0;" class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#page-top">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#contact_us">Contact</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#projects">Vendors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="transport" class="section">
+            <div class="container">
+                <div id="transport_info" class="transport_block">
+                    <h1>Transportation</h1>
+                    <p>
+                        The towing industry is a 24/7 business and so are we. The earlier of a notice we can have in regards to your transportation needs, the more efficient we can be. However, we are fully staffed and prepared for any last-minute requests.
+                    </p>
+                    <p>
+                        We firmly believe it is everyone’s responsibility to do their part in reducing the carbon footprint they leave. That is why a diverse fleet is so important; so we can use the right vehicle for the job.
+                    </p>
+                    <p>
+                        Our fleet consists of solely late-model vehicles specific to each of your tasks: large vans for groups of people and heavier equipment, electric Volts that provide environmentally-friendly transport for your smaller loads, and …. Each manner suited for efficiency and convenience .
+                    </p>
+                </div>
+                <div id="transport_img" class="transport_block">
+
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

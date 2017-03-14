@@ -51,5 +51,8 @@ def submit_contact_form(request):
     if get_messages(request):
         return redirect('/#contact_us')
 
-def test(request):
-    return render(request, "boat_app/test.html")
+def transport(request):
+    return render(request, "boat_app/transport.html")
+
+def shore(request):
+    return render(request, "boat_app/shore_power.html")
