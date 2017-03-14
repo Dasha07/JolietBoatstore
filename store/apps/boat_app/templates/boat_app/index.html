@@ -9,9 +9,6 @@
         <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
         <title>JBS</title>
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -67,7 +64,8 @@
                     </p>
                 </div>
                 <div id="about_img" class="about_block">
-
+                    <img src="{% static 'boat_app/stylesheets/images/about.jpg' %}" alt="About Pic" height=460px,
+                    width=500px >
                 </div>
             </div>
         </section>
@@ -82,25 +80,25 @@
                         </div>
                         <div id="services_top_row" class="services_block">
                             <div class="services_link">
-                                <img src="" alt="Transportation Pic">
+                                <img src="{% static 'boat_app/stylesheets/images/transportation.jpg' %}" alt="Transportation Pic">
                                 <a href="/transport"><h4>Transportation</h4></a>
                             </div>
                             <div class="services_link">
-                                <img src="" alt="Groceries Pic">
+                                <img src="{% static 'boat_app/stylesheets/images/supplies.jpg' %}" alt="Groceries Pic">
                                 <a href="/grocery_supply"><h4>Groceries & Supplies</h4></a>
                             </div>
                             <div class="services_link">
-                                <img src="" alt="Water Pic">
+                                <img src="{% static 'boat_app/stylesheets/images/water_fuel.jpg' %}" alt="Water Pic">
                                 <a href="/water_fuel"><h4>Water & Fuel</h4></a>
                             </div>
                         </div>
                         <div id="services_bottom_row" class="services_block">
                             <div class="services_link">
-                                <img src="" alt="Waste Pic">
+                                <img src="{% static 'boat_app/stylesheets/images/waste.jpg' %}" alt="Waste Pic">
                                 <a href="/waste"><h4>Waste</h4></a>
                             </div>
                             <div class="services_link">
-                                <img src="" alt="Shore Pic">
+                                <img src="{% static 'boat_app/stylesheets/images/ship_power.jpg' %}" alt="Shore Pic">
                                 <a href="/shore"><h4>Shore Power</h4></a>
                             </div>
                         </div>

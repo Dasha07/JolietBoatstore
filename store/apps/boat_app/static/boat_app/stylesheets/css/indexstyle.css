@@ -79,7 +79,7 @@
     text-align: left;
 }
 #about_img {
-    background-color: white;
+    background: white;
 }
 #services_header p{
     text-align: center;
@@ -87,6 +87,10 @@
 #services_header h1 {
     text-decoration: underline;
 }
+#services_bottom_row{
+    margin-top: 50px;
+}
+
 .services_block {
     height: 200px;
     width: auto;
@@ -96,8 +100,8 @@
     margin: 25px 100px;
 }
 .services_link img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 5px solid blue;
 }
 h3 {
