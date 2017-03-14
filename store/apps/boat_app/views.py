@@ -56,3 +56,9 @@ def transport(request):
 
 def shore(request):
     return render(request, "boat_app/shore_power.html")
+
+def water_fuel(request):
+    return render(request, "boat_app/water_fuel.html")
+
+def groceries(request):
+    return render(request, "boat_app/groceries.html")
