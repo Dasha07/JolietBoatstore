@@ -56,3 +56,6 @@ def transport(request):
 
 def shore(request):
     return render(request, "boat_app/shore_power.html")
+
+def waste(request):
+    return render(request, "boat_app/waste.html")

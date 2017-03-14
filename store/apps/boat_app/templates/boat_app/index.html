@@ -48,12 +48,12 @@
                 </div>
             </div>
         </nav>
-        <div class="parallax" id="parallax_1">
-            <h1 id="welcome" style="color:white">We Help Keep Your Ship Together</h1>
+        <div class="parallax" id="parallax_1" data-parallax='{"y" : 800}' background-attachment: fixed; >
+            <h1 id="welcome" style="color:black" data-parallax='{"rotateX":20}'>We Help Keep Your Ship Together!</h1>
         </div>
         <section id="about" class="section">
-            <div class="container">
-                <div id="about_info" class="about_block">
+            <div class="parallax" id="parallax_1" data-parallax='{"y" : 100}' >
+                <div id="about_info" class="about_block" data-parallax='{"y" : 100}' >
                     <h1>About</h1>
                     <p>
                         We started out like most towing families, as an accident. We have never known a   tug boat to stop and not need milk or bread or the usual, “would you mind if you get us some cigarettes." Before we knew it, we had six vehicles and expanded our services to fuel, water, trash, waste, crew changes and supplies.
@@ -63,15 +63,16 @@
                         than happy to help out in any way we can.
                     </p>
                 </div>
-                <div id="about_img" class="about_block">
-                    <img src="{% static 'boat_app/stylesheets/images/about.jpg' %}" alt="About Pic" height=460px,
-                    width=500px >
-                </div>
+                <!-- <div id="about_img" class="about_block"> -->
+                    <!-- <img src="{% static 'boat_app/stylesheets/images/about.jpg' %}" data-parallax='{"y" : 300}' alt="About Pic" height=460px,
+                    width=500px > -->
+                <!-- </div> -->
             </div>
         </section>
     </div>
+
         <section id="services" class="section">
-            <div class="container">
+            <div class="parallax" id="parallax_2">
                 <div class="row">
                     <div class="col-lg-12">
                         <div id="services_header">
@@ -107,7 +108,6 @@
         </section>
         <!-- <section id="contact_us" class="contact section"> -->
 
-        <div class="parallax" id="parallax_2"></div>
 
         <section id="contact_us" class="contact section">
             <div class="container">
@@ -181,7 +181,7 @@
             </div>
         </section>
         <section id="projects" class="section">
-            <div class="container">
+            <div class="parallax" id="parallax_3">
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Vendors</h1>
@@ -218,5 +218,6 @@
     <script src="{% static 'boat_app/js/jquery.easing.min.js' %}"></script>
     <script src="{% static 'boat_app/js/scrolling-nav.js' %}"></script>
     <script src="{% static 'boat_app/js/map.js' %}"></script>
+    <script src="{% static 'boat_app/js/jquery.parallax-scroll.js' %}"></script>
     </body>
 </html>

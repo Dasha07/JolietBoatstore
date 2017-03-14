@@ -36,10 +36,10 @@
     width: auto;
 }
 #parallax_1 {
-    background-image: url("../images/osman-rana-193635.jpg");
+    background-image: url("../images/home.jpg");
 }
-#parallax_2 {
-    background-image: url("../images/Muon-move-river-2-mr.jpg");
+#parallax_2, #parallax_3 {
+    background-image: url("../images/services.jpg");
 }
 #welcome {
     text-align: center;
@@ -63,8 +63,8 @@
 }
 .about_block {
     display: inline-block;
-    width: 400px;
-    height: 460px;
+    width: 30em;
+    height: 60em;
     margin: 0px 40px;
     vertical-align: top;
 }
@@ -78,9 +78,9 @@
     font-size: 18px;
     text-align: left;
 }
-#about_img {
-    background: white;
-}
+/*#about_img {
+    background: none;
+}*/
 #services_header p{
     text-align: center;
 }
