@@ -1,29 +1,30 @@
-.transport_block {
+.supplies_block {
     display: inline-block;
-    width: 400px;
-    height: 550px;
-    margin: 0px 40px;
+    width: 300px;
+    height: 300px;
+    margin: 1em;
     vertical-align: top;
 }
-#transport_info {
+#supplies_info {
     text-align: left;
 }
-#transport_info h1{
+#supplies_info h1{
     text-decoration: underline;
     margin-bottom: 30px;
 }
-#transport_info p {
+#supplies_info p {
     font-size: 18px;
     text-align: left;
     line-height: 1.75;
 }
-#transport_img img {
+#supplies_img img {
+    display: inline-block;
     background-color: black;
-    margin-top: 60px;
-    height: 500px;
-    width: 600px;
+    margin-top: 30px;
+    height: 250px;
+    width: 300px;
     border: 2px solid black;
-
+    float: left;
 }
 .section {
     padding-top: 100px;

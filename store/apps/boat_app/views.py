@@ -59,3 +59,9 @@ def shore(request):
 
 def waste(request):
     return render(request, "boat_app/waste.html")
+
+def water(request):
+    return render(request, "boat_app/water_fuel.html")
+
+def supplies(request):
+    return render(request, "boat_app/groceries_supplies.html")
