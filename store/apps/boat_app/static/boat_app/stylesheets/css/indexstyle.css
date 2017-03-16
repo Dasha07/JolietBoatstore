@@ -30,6 +30,7 @@
 }
 #logoBrand {
     padding: 0px !important;
+    margin-right: 40px;
 }
 #logo {
     margin-top: 0px;
@@ -79,13 +80,14 @@ h3 {
     margin: 75px 40px;
     vertical-align: top;
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 15px 20px;
+    padding: 10px 20px;
 }
 #about_info {
     text-align: left;
 }
 #about_info h1{
     text-decoration: none;
+    font-size: 36pt;
 }
 #about_info p {
     font-size: 18px;
@@ -93,21 +95,34 @@ h3 {
     text-align: left;
     line-height: 1.75;
 }
-
-#services_header p{
-    text-align: center;
-}
 #services_header {
     text-decoration: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+#services_header h1 {
+    font-size: 36pt;
+    font-weight: 500;
+    text-shadow: -.5px 0 grey, 0 .5px grey, .5px 0 grey, 0 -.5px grey;
+}
+#services_header p{
+    text-align: center;
 }
 #services_bottom_row{
     margin-top: 50px;
 }
 #vendors_header{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+#vendors{
+    padding-top: none;
+}
+#vendors h1{
+    margin-top: 150px;
+    font-size: 36pt;
+    font-weight: 500;
+    text-shadow: -.5px 0 grey, 0 .5px grey, .5px 0 grey, 0 -.5px grey;
 }
 img{
     border: 2px solid white;
@@ -115,11 +130,13 @@ img{
 .services_block {
     height: 200px;
     width: auto;
-
 }
 .services_link {
     display: inline-block;
     margin: 25px 100px;
+}
+.services_link h4 {
+    font-size: 18pt;
 }
 .services_link img {
     height: 150px;
@@ -139,7 +156,7 @@ li {
 body {
     margin-top: -20px;
 }
-#greyscale {
+.greyscale {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }

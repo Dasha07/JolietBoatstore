@@ -14,20 +14,22 @@
 
 .contact h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2.5em;
+  font-size: 36pt;
   border: 1px solid #555;
   background-color: rgba(0,0,0,0.6);
-  padding-top: 20px;
-  height: 75px;
+  padding-top: 25px;
+  height: 90px !important;
   color: #fff;
   font-weight: 500;
   line-height: 40px;
   padding-left: 50px;
   text-align: center;
+  margin-top: 75px;
 }
 
 #comments {
   margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .contactform {
@@ -56,7 +58,7 @@
 
 .contactform textarea {
   padding: 15px;
-  height: 218px;
+  height: 160px;
   border-radius: 0;
 }
 
@@ -81,4 +83,10 @@
 }
 .maps iframe{
     pointer-events: none;
+}
+fieldset {
+    top: 10px;
+}
+.spacing {
+    top: 10px;
 }
