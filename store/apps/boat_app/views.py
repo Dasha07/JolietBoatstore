@@ -51,17 +51,19 @@ def submit_contact_form(request):
     if get_messages(request):
         return redirect('/#contact_us')
 
+    return redirect('/#contact_us')
+
 def transport(request):
     return render(request, "boat_app/transport.html")
 
 def shore(request):
     return render(request, "boat_app/shore_power.html")
 
-def waste(request):
-    return render(request, "boat_app/waste.html")
-
-def water(request):
+def water_fuel(request):
     return render(request, "boat_app/water_fuel.html")
 
-def supplies(request):
-    return render(request, "boat_app/groceries_supplies.html")
+def groceries(request):
+    return render(request, "boat_app/groceries.html")
+
+def waste(request):
+    return render(request, "boat_app/waste.html")

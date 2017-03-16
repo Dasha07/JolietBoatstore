@@ -24,7 +24,7 @@
 }
 .navHead {
     height: 100px;
-    padding: 25px 25px 0px 25px !important;
+    padding: 40px 25px 0px 25px !important;
     text-align: center;
     align-items: center;
 }
@@ -44,10 +44,13 @@
     background-image: url("../images/services.jpg");
     background-position: fixed;
 }
-#welcome {
+#slogan {
     text-align: center;
-    padding-top: 400px;
-    color: grey;
+    padding-top: 275px;
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 64px;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
 }
 .content {
     display: inline-block;
@@ -71,12 +74,12 @@ h3 {
 }
 .about_block {
     display: inline-block;
-    width: 450px;
-    height: 450px;
-    margin: 0px 40px;
+    width: 500px;
+    height: 500px;
+    margin: 75px 40px;
     vertical-align: top;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px;
 }
 #about_info {
     text-align: left;
@@ -86,9 +89,9 @@ h3 {
 }
 #about_info p {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: left;
-
+    line-height: 1.75;
 }
 
 #services_header p{
@@ -121,7 +124,7 @@ img{
 .services_link img {
     height: 150px;
     width: 150px;
-    border: 5px solid black;
+    border: none;
 }
 h3 {
     margin-bottom: 15px;
@@ -129,7 +132,17 @@ h3 {
 p {
     text-align: justify;
 }
-
+li {
+    font-size: 20px;
+    font-weight: bold;
+}
+body {
+    margin-top: -20px;
+}
+#greyscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 a {
     color: black;
 }
