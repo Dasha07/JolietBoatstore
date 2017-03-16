@@ -8,6 +8,8 @@
         <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>JBS</title>
     </head>
@@ -50,7 +52,7 @@
         </nav>
         <section id="home" class="section" style="padding-top: 0px">
         <div class="parallax" id="parallax_1">
-            <h1 id="welcome" style="color:black" data-parallax='{"rotateX":100}'>We Help Keep Your Ship Together!</h1>
+            <h1 id="welcome" style="color:black" data-parallax='{"rotateX":200}'>We Help Keep Your Ship Together!</h1>
             </div>
         </section>
 
@@ -58,7 +60,7 @@
             <div class="parallax" id="parallax_1">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div id="about_info" class="about_block" >
+                        <div id="about_info" class="about_block" data-parallax='{"rotateX":500}' >
                     <h1>About</h1>
                     <p>
                         We started out like most towing families, as an accident. We have never known a   tug boat to stop and not need milk or bread or the usual, “would you mind if you get us some cigarettes." Before we knew it, we had six vehicles and expanded our services to fuel, water, trash, waste, crew changes and supplies.
@@ -106,7 +108,6 @@
                     </div>
                 </div>
         </section>
-        <!-- <section id="contact_us" class="contact section"> -->
         <section id="projects" class="section">
             <div class="parallax" id="parallax_3">
                 <div class="row">
@@ -117,11 +118,11 @@
 
                     </div>
                     <div class="content">
-                        <a href="http://feeceoilfuel.com"></a>
-                        <h2>Feece Oil</h2>
+                        <a href="http://feeceoilfuel.com"><img src="{% static 'boat_app/stylesheets/images/feece_oil.png' %}"</a>
 
-                        <a href="http://www.erinrope.com/"></a>
-                        <h3>Erin Rope</h3>
+
+                        <a href="http://www.erinrope.com/"><img src="{% static 'boat_app/stylesheets/images/erin-rope-logo.png' %}"</a>
+
 
                         <a href="http://www.erlperformance.com/"></a>
                         <h3>ERL</h3>
@@ -224,6 +225,6 @@
     <script src="{% static 'boat_app/js/jquery.easing.min.js' %}"></script>
     <script src="{% static 'boat_app/js/scrolling-nav.js' %}"></script>
     <script src="{% static 'boat_app/js/map.js' %}"></script>
-    <script src="{% static 'boat_app/js/jquery.parallax-scroll.js' %}"></script>
+    <script src="{% static 'boat_app/js/jquery_type.js' %}"></script>
     </body>
 </html>
