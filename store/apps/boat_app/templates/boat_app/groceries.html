@@ -3,18 +3,19 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/anchor.ico' %}">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/favicon-32x32.png' %}">
         <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/groceriesstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/supplies.css' %}" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>JBS</title>
     </head>
     <body>
         <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container navbar-fixed-top" style="margin-left: 0px; padding-left:15px">
+            <div id="groceries_container" class="container navbar-fixed-top" style="margin-left: 0px; padding-left:15px">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -62,7 +63,7 @@
                             With most major stores within a 10 minute drive of our river location, you can shop for yourself or we can do the shopping for you. The best part is that we will be passing on the savings benefits, the same we're all used to, right to the customer.
                         </p>
                     </div>
-                    <div id="groceries_img" class="block_image">
+                    <div class="block_image"><img id="groceries_img"  src="{% static 'boat_app/stylesheets/images/groceries.jpg' %}" alt="Groceries pic">
 
                     </div>
                 </div>
@@ -76,8 +77,7 @@
                             Feel free to let us know if you want to send something to our location and we will unload and hand it off to your boat free of charge on arrival.
                         </p>
                     </div>
-                    <div id="supplies_img" class="block_image">
-
+                    <div id="supplies_img" class="block_image"><img src="{% static 'boat_app/stylesheets/images/supplies.jpg' %}" alt="Supplies pic">
                     </div>
                 </div>
             </div>

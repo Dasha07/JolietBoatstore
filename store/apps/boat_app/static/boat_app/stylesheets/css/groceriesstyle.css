@@ -20,17 +20,17 @@
     text-align: left;
     line-height: 1.75;
 }
-.block_image {
-    background-color: black;
-    height: 300px;
-    width: 450px;
-}
 .section {
     padding-top: 100px;
     text-align: center;
     overflow: hidden;
     margin: 0;
+    height: auto;
 }
 h1 {
     text-decoration: underline;
+}
+#groceries_container {
+    height: 800px;
+    margin-bottom: 20px;
 }

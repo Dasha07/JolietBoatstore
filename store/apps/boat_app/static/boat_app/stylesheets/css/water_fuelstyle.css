@@ -9,6 +9,7 @@
     text-align: left;
     padding: 10px;
     height: 260px;
+    margin-bottom: 20px;
 }
 .block_text h3{
     text-decoration: underline;
@@ -21,8 +22,7 @@
     line-height: 1.75;
 }
 .block_image {
-    background-color: black;
-    height: 300px;
+    height: auto;
     width: 400px;
 }
 .section {

@@ -1,7 +1,7 @@
 .shore_block {
     display: inline-block;
     width: 400px;
-    height: 550px;
+    height: 480px;
     margin: 0px 40px;
     vertical-align: top;
 }
@@ -29,4 +29,5 @@
     text-align: center;
     overflow: hidden;
     margin: 0;
+    height: auto;
 }
