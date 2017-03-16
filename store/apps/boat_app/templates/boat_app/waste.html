@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/anchor.ico' %}">
+        <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/transportstyle.css' %}" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Waste</title>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container navbar-fixed-top" style="margin-left: 0px; padding-left:15px">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logoBrand" class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="{% static 'boat_app/stylesheets/images/logo.jpg' %}" alt="Joliet Boat Store"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li style="padding:25px 0;" class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#page-top">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#contact_us">Contact</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#projects">Vendors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="waste" class="section">
+            <div class="container">
+                <div id="waste_info" class="waste_block">
+                    <div class="text-center">
+                        <h1 class="section-heading">Waste</h1>
+                        <p>Waste is a very important part of the towing industry. Because of this we offer safe, efficient, and environmentally sound solutions with proper documentation.</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h4 class="service-heading">Trash</h4>
+                        <img src="{% static 'boat_app/stylesheets/images/trash.png' %}" alt="Trash Pic">
+                        <p class="text-muted">Household trash receptacles are located at our facility with easy access for your vessel.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="service-heading">Recycle</h4>
+                        <img src="{% static 'boat_app/stylesheets/images/Recycle.png' %}" alt="Recycle Pic" >
+                        <p class="text-muted">We urge all vessels to separate recyclables which we have a separate receptacle for.
+
+                             Cardboard & plastics
+
+                             Electronics & appliances
+
+                             Light bulbs
+
+                             Batteries</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="service-heading">Oily Waste</h4>
+                        <img src="{% static 'boat_app/stylesheets/images/oil.png' %}" alt="Oily Waste Pic">
+                        <p class="text-muted">Oily waste needs to be separated with filters drained and then double bagged and taped shut. The filters are then crushed and recycled and the oil residue, if any, is put into our recycle program. Rags and paint please double bag and tape shut which will go out as special waste.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="service-heading">Bilges</h4>
+                            <img src="{% static 'boat_app/stylesheets/images/pump.png' %}" alt="Pump Pic">
+                            <p class="text-muted">All of our bilge and slop tank  material go to proper and  approved TSD facilities where  the oil is recycled and the  water is treated to all legal  requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="{% static 'boat_app/js/jquery.js' %}"></script>
+            <script src="{% static 'boat_app/js/bootstrap.min.js' %}"></script>
+            <script src="{% static 'boat_app/js/jquery.easing.min.js' %}"></script>
+            <script src="{% static 'boat_app/js/scrolling-nav.js' %}"></script>
+            <script src="{% static 'boat_app/js/map.js' %}"></script>
+            <script src="{% static 'boat_app/js/jquery.parallax-scroll.js' %}"></script>
+    </body>
+</html>

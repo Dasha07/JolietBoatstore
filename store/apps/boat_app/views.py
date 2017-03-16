@@ -51,6 +51,8 @@ def submit_contact_form(request):
     if get_messages(request):
         return redirect('/#contact_us')
 
+    return redirect('/#contact_us')
+
 def transport(request):
     return render(request, "boat_app/transport.html")
 
@@ -62,3 +64,6 @@ def water_fuel(request):
 
 def groceries(request):
     return render(request, "boat_app/groceries.html")
+
+def waste(request):
+    return render(request, "boat_app/waste.html")

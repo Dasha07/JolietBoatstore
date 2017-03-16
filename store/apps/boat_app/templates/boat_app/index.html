@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/anchor.ico' %}">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/favicon-32x32.png' %}">
         <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
@@ -13,7 +13,7 @@
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container navbar-fixed-top" style="margin-left: 0px; padding-left:15px">
+            <div class="container navbar-fixed-top" style="margin-left: 0%; padding-left:50px; padding-bottom: 5px">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <li style="padding:25px 0;" class="hidden">
+                        <li style="padding: 25px 0;" class="hidden">
                             <a class="page-scroll" href="#page-top"></a>
                         </li>
                         <li>
@@ -48,12 +48,17 @@
                 </div>
             </div>
         </nav>
+        <section id="home" class="section" style="padding-top: 0px">
         <div class="parallax" id="parallax_1">
-            <h1 id="welcome" style="color:white">We Help Keep Your Ship Together</h1>
-        </div>
-        <section id="about" class="section">
-            <div class="container">
-                <div id="about_info" class="about_block">
+            <h1 id="slogan" data-parallax='{"rotateX":-100}'>We Help Keep Your Ship Together!</h1>
+            </div>
+        </section>
+
+        <section id="about" class="section" style="padding-top: 0px">
+            <div class="parallax" id="parallax_1">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="about_info" class="about_block" >
                     <h1>About</h1>
                     <p>
                         We started out like most towing families, as an accident. We have never known a   tug boat to stop and not need milk or bread or the usual, “would you mind if you get us some cigarettes." Before we knew it, we had six vehicles and expanded our services to fuel, water, trash, waste, crew changes and supplies.
@@ -63,52 +68,86 @@
                         than happy to help out in any way we can.
                     </p>
                 </div>
-                <div id="about_img" class="about_block">
-                    <img src="{% static 'boat_app/stylesheets/images/about.jpg' %}" alt="About Pic" height=460px,
-                    width=500px >
                 </div>
-            </div>
         </section>
-    </div>
+
+
         <section id="services" class="section">
-            <div class="container">
+            <div class="parallax" id="parallax_2">
                 <div class="row">
                     <div class="col-lg-12">
                         <div id="services_header">
-                            <h1>Services</h1>
-                            <p>Complimentary space is available to drop one's tow and receive any of our services.</p>
+                            <h1 style="color:black">Services</h1>
                         </div>
+
                         <div id="services_top_row" class="services_block">
                             <div class="services_link">
-                                <img src="{% static 'boat_app/stylesheets/images/transportation.jpg' %}" alt="Transportation Pic">
-                                <a href="/transport"><h4>Transportation</h4></a>
+                                <a href="/transport"><img id="greyscale" src="{% static 'boat_app/stylesheets/images/transportation.jpg' %}" alt="Transportation Pic"><h4>Transportation</h4></a>
+
                             </div>
                             <div class="services_link">
-                                <img src="{% static 'boat_app/stylesheets/images/supplies.jpg' %}" alt="Groceries Pic">
-                                <a href="/grocery_supply"><h4>Groceries & Supplies</h4></a>
+                                <a href="/grocery_supply"><img src="{% static 'boat_app/stylesheets/images/supplies.jpg' %}" alt="Groceries Pic"><h4>Groceries & Supplies</h4></a>
                             </div>
                             <div class="services_link">
-                                <img src="{% static 'boat_app/stylesheets/images/water_fuel.jpg' %}" alt="Water Pic">
-                                <a href="/water_fuel"><h4>Water & Fuel</h4></a>
+                                <a href="/water_fuel"><img src="{% static 'boat_app/stylesheets/images/water_fuel.jpg' %}" alt="Water Pic">
+                                <h4>Water & Fuel</h4></a>
                             </div>
                         </div>
                         <div id="services_bottom_row" class="services_block">
                             <div class="services_link">
-                                <img src="{% static 'boat_app/stylesheets/images/waste.jpg' %}" alt="Waste Pic">
-                                <a href="/waste"><h4>Waste</h4></a>
+                                <a href="/waste"><img src="{% static 'boat_app/stylesheets/images/waste.jpg' %}" alt="Waste Pic">
+                                <h4>Waste</h4></a>
                             </div>
                             <div class="services_link">
-                                <img src="{% static 'boat_app/stylesheets/images/ship_power.jpg' %}" alt="Shore Pic">
-                                <a href="/shore"><h4>Shore Power</h4></a>
+                                <a href="/shore"><img src="{% static 'boat_app/stylesheets/images/ship_power.jpg' %}" alt="Shore Pic">
+                                <h4>Shore Power</h4></a>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
         <!-- <section id="contact_us" class="contact section"> -->
+        <section id="projects" class="section">
+            <div class="parallax" id="parallax_3">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="vendors_header">
+                            <h1 style="color:black" >Vendors</h1>
+                        </div>
 
-        <div class="parallax" id="parallax_2"></div>
+                    </div>
+                    <div class="content">
+                        <a href="http://feeceoilfuel.com"></a>
+                        <h3>Feece Oil</h3>
 
+                        <a href="http://www.erinrope.com/"></a>
+                        <h3>Erin Rope</h3>
+
+                        <a href="http://www.erlperformance.com/"></a>
+                        <h3>ERL</h3>
+
+                        <a href=""></a>
+                        <h3>Humco</h3>
+
+                        <a href=""></a>
+                        <h3>Timco</h3>
+
+                        <a href=""></a>
+                        <h3>Czysek</h3>
+
+                        <a href=""></a>
+                        <h3>IMO</h3>
+
+                        <a href=""></a>
+                        <h3>Kemmer</h3>
+
+                        <a href=""></a>
+                        <h3>Perry</h3>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="contact_us" class="contact section">
             <div class="container">
                 <div class="row">
@@ -118,7 +157,7 @@
                 </div>
                 <div class='embed-container  maps'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4972.959489325538!2d-88.10210553397894!3d41.5076664962236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e6152531e6867%3A0x26c5c0e5b296f61c!2sJoliet+Boat+Store!5e0!3m2!1sen!2sus!4v1489092543423" width="1138" height="132" frameborder="0"></iframe></div>
                 <div class="row">
-                    <form method="post" action="https://formspree.io/dasha.daniyalian@gmail.com"  name="contactform" class="contactform hidden" id="formspree">
+                    <form method="post" action="https://formspree.io/ambrosecoc@gmail.com"  name="contactform" class="contactform" id="formspree">
                         <div class="col-md-6">
                             <fieldset>
                                 <input name="First name" type="text" id="name" size="30" placeholder="First Name" value="{{ form.f_name }}">
@@ -143,7 +182,7 @@
                             </fieldset>
                         </div>
                     </form>
-                    <form method="post" action="/contact/submit"  name="contactform" class="contactform" id="validationform">
+                    <form method="post" action="/contact/submit"  name="contactform" class="contactform hidden" id="validationform">
                         {% csrf_token %}
                         <div class="col-md-6">
                             <fieldset>
@@ -180,43 +219,11 @@
                 </div>
             </div>
         </section>
-        <section id="projects" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Vendors</h1>
-                    </div>
-                    <div class="content">
-                        <img class="content_pic" src="{% static 'boat_app/stylesheets/images/freighter.jpg' %}" alt="Transportation Pic">
-                        <h3>Transportation</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas feugiat justo velit. In egestas</p>
-                        <p>dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas fe</p>
-                    </div>
-                    <div class="content">
-                        <img class="content_pic" src="{% static 'boat_app/stylesheets/images/water_tower.jpg' %}" alt="Water Pic">
-                        <h3>Water</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas feugiat justo velit. In egestas</p>
-                        <p>dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas fe</p>
-                    </div>
-                    <div class="content">
-                        <img class="content_pic" src="{% static 'boat_app/stylesheets/images/boat_1.jpg' %}" alt="Waste Pic">
-                        <h3>Waste</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas feugiat justo velit. In egestas</p>
-                        <p>dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas fe</p>
-                    </div>
-                    <div class="content">
-                        <img class="content_pic" src="{% static 'boat_app/stylesheets/images/oil_platform.jpg' %}" alt="Fuel Pic">
-                        <h3>Fuel</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas feugiat justo velit. In egestas</p>
-                        <p>dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis lacus eget tincidunt. Aliquam felis elit, condimentum vitae convallis ut, convallis et magna. Maecenas fe</p>
-                    </div>
-                </div>
-            </div>
-        </section>
     <script src="{% static 'boat_app/js/jquery.js' %}"></script>
     <script src="{% static 'boat_app/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'boat_app/js/jquery.easing.min.js' %}"></script>
     <script src="{% static 'boat_app/js/scrolling-nav.js' %}"></script>
     <script src="{% static 'boat_app/js/map.js' %}"></script>
+    <script src="{% static 'boat_app/js/jquery.parallax-scroll.js' %}"></script>
     </body>
 </html>

@@ -8,5 +8,6 @@ urlpatterns = [
     url(r'^transport/$', views.transport), #loads transportation page
     url(r'^shore/$', views.shore), #loads shore power page
     url(r'^water_fuel/$', views.water_fuel), #loads shore power page
-    url(r'^grocery_supply/$', views.groceries)
+    url(r'^grocery_supply/$', views.groceries),
+    url(r'^waste/$', views.waste) #loads waste page
 ]
