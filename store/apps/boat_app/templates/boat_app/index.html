@@ -8,6 +8,8 @@
         <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+        <!-- <link href="{% static 'boat_app/stylesheets/css/component.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/default.css' %}" rel="stylesheet"> -->
 
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +54,7 @@
         </nav>
         <section id="home" class="section" style="padding-top: 0px">
         <div class="parallax" id="parallax_1">
-            <h1 id="slogan" style="color:black" data-parallax='{"rotateX":200}'>We Help Keep Your Ship Together!</h1>
+            <h1 id="slogan" data-parallax='{"rotateX":200}'>We Help Keep Your Ship Together!</h1>
             </div>
         </section>
         <section id="about" class="section" style="padding-top: 0px">
@@ -112,11 +114,13 @@
                         </div>
 
                     </div>
+                    <!-- <div id="overlay" class="cover blur-in"> -->
                     <div class="content">
-                        <a href="http://feeceoilfuel.com"><img src="{% static 'boat_app/stylesheets/images/feece_oil.png' %}"</a>
+                        <!-- <a href="http://feeceoilfuel.com"><img src="{% static 'boat_app/stylesheets/images/feece_oil.png' %}"></a> -->
 
-
-                        <a href="http://www.erinrope.com/"><img src="{% static 'boat_app/stylesheets/images/erin-rope-logo.png' %}"</a>
+                        <a href="http://www.erinrope.com/"></a>
+                        <h3>Erin Rope</h3>
+                            <!-- <img src="{% static 'boat_app/stylesheets/images/erin-rope-logo.png' %}"></a> -->
 
 
                         <a href="http://www.erlperformance.com/"></a>
@@ -139,10 +143,16 @@
 
                         <a href=""></a>
                         <h3>Perry</h3>
-
+                        <!-- <div class='wrap'>
+                          <div class='popup_content'>
+                            <h2>Well Hello!</h2>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                          </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section id="contact_us" class="contact section">
             <div class="container">
@@ -153,7 +163,7 @@
                 </div>
                 <div class='embed-container  maps'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4972.959489325538!2d-88.10210553397894!3d41.5076664962236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e6152531e6867%3A0x26c5c0e5b296f61c!2sJoliet+Boat+Store!5e0!3m2!1sen!2sus!4v1489092543423" width="1138" height="132" frameborder="0"></iframe></div>
                 <div class="row">
-                    <form method="post" action="https://formspree.io/ambrosecoc@gmail.com"  name="contactform" class="contactform" id="formspree">
+                    <form method="post" action="https://formspree.io/dispatch@jolietboatstore.com"  name="contactform" class="contactform" id="formspree">
                         <div class="col-md-6">
                             <fieldset>
                                 <input name="First name" type="text" id="name" size="30" placeholder="First Name" value="{{ form.f_name }}">
@@ -220,6 +230,7 @@
     <script src="{% static 'boat_app/js/jquery.easing.min.js' %}"></script>
     <script src="{% static 'boat_app/js/scrolling-nav.js' %}"></script>
     <script src="{% static 'boat_app/js/map.js' %}"></script>
-    <script src="{% static 'boat_app/js/jquery_type.js' %}"></script>
+    <!-- <script src="{% static 'boat_app/js/jquery.modalEffects.js' %}"></script>
+    <script src="{% static '//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js' %}"></script> -->
     </body>
 </html>
