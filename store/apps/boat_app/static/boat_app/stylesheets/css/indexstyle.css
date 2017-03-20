@@ -37,12 +37,13 @@
     height: 100px;
     width: auto;
 }
-#parallax_1, #parallax_4 {
-    background-image: url("../images/home.jpg");
+#parallax_1{
+    background-image: url("../images/boat.jpg");
     background-position: fixed;
 }
-#parallax_2, #parallax_3 {
-    background-image: url("../images/services.jpg");
+
+#parallax_2, #parallax_3, #parallax_4  {
+    background-image: url("../images/background.jpg");
     background-position: fixed;
 }
 #slogan {
@@ -82,6 +83,14 @@ h3 {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 10px 20px;
 }
+#about_img img {
+    background-color: black;
+    margin-top: 100px;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+}
+
 #about_info {
     text-align: left;
 }
