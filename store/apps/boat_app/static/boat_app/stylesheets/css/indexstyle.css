@@ -84,11 +84,14 @@ h3 {
     padding: 10px 20px;
 }
 #about_img img {
+    display: inline-block;
     background-color: black;
     margin-top: 100px;
-    height: auto;
-    width: 500px;
+    height: 300px;
+    width: auto;
     border: 2px solid black;
+    vertical-align: top;
+
 }
 
 #about_info {
@@ -134,7 +137,14 @@ h3 {
     text-shadow: -.5px 0 grey, 0 .5px grey, .5px 0 grey, 0 -.5px grey;
 }
 img{
-    border: 2px solid white;
+    border: none;
+}
+#vendors_img img {
+    background-color: black;
+    margin-top: 100px;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
 }
 .services_block {
     height: 200px;
@@ -151,6 +161,11 @@ img{
     height: 150px;
     width: 150px;
     border: none;
+}
+
+.popup #page-wrap {
+  -webkit-filter: blur(5px) grayscale(50%);
+  -webkit-transform: scale(0.9);
 }
 h3 {
     margin-bottom: 15px;
