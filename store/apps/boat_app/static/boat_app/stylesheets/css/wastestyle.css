@@ -8,7 +8,7 @@
     margin-top: 15px;
 }
 #waste_info {
-    text-align: left;
+    text-align: center;
     margin-right: 80px;
 }
 #waste_info h1{
@@ -21,8 +21,8 @@
 }
 #waste_info p {
     font-size: 18px;
-    text-align: left;
-    line-height: 1.75;
+    text-align: center;
+    line-height: 1.5;
 }
 #waste_img img {
     background-color: black;
