@@ -20,7 +20,7 @@
   transition: all 0.3s ease-out;
 }
 .vendot_button:hover {
-  background: #B1C8D3;
+  background: #3838D1;
 }
 
 .overlay {
@@ -51,7 +51,7 @@
 
 .popup h2 {
   margin-top: 0;
-  color: #333;
+  color: #3838D1;
   font-family: Tahoma, Arial, sans-serif;
 }
 .popup .close {
@@ -62,7 +62,7 @@
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #3838D1;
 }
 .popup .close:hover {
   color: #06D85F;

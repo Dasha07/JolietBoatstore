@@ -43,7 +43,7 @@
 }
 
 #parallax_2, #parallax_3, #parallax_4  {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background_1.jpg");
     background-position: fixed;
 }
 #slogan {
@@ -115,7 +115,7 @@ h3 {
 #services_header h1 {
     font-size: 36pt;
     font-weight: 500;
-    text-shadow: -.5px 0 grey, 0 .5px grey, .5px 0 grey, 0 -.5px grey;
+    text-shadow: #3838D1;
 }
 #services_header p{
     text-align: center;

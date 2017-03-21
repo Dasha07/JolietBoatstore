@@ -1,3 +1,6 @@
+body {
+    background-color: #B0BDF5;
+}
 .transport_block {
     display: inline-block;
     width: 400px;
