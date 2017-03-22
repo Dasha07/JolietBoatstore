@@ -109,8 +109,8 @@ h3 {
 }
 #services_header {
     text-decoration: none;
-    margin-top: 175px;
-    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 10px;
 }
 #services_header h1 {
     font-size: 36pt;
@@ -121,7 +121,7 @@ h3 {
     text-align: center;
 }
 #services_bottom_row{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #vendors_header{
     margin-top: 50px;
