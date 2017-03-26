@@ -33,4 +33,8 @@ h1 {
 #groceries_container {
     height: 800px;
     margin-bottom: 20px;
+    z-index: -1 !important;
+}
+.link {
+    z-index: 2 !important;
 }
