@@ -1,5 +1,21 @@
 body {
-    background-color: #B0BDF5;
+    background: none;
+}
+.parallax {
+    /* Set a specific height */
+    height:  100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#parallax_5 {
+    background-image: url("../images/back2.jpg");
+    background-position: fixed;
 }
 .transport_block {
     display: inline-block;

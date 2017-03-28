@@ -185,12 +185,20 @@
                     <div class='embed-container maps'>
                         <iframe id ="map-canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4972.959489325538!2d-88.10210553397894!3d41.5076664962236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e6152531e6867%3A0x26c5c0e5b296f61c!2sJoliet+Boat+Store!5e0!3m2!1sen!2sus!4v1489092543423" width="1138" height="300" frameborder="0"></iframe>
                     </div>
-                    <div style="background-color:#C3CADF;" class="contact_info">
-                        <h2>Telephone: (844) 527-8326</h2>
-                        <h2>Address: Illinois & Michigan Canal State Trail, 724 Railroad St, Joliet, IL 60436</h2>
-                        <h2>Apply for a Job <a class="link" href="{% static 'boat_app/downloads/job.pdf' %}" download> Here</a></h2>
-                        <h2>Grocery Form<a class="link" href="{% static 'boat_app/downloads/grocery.pdf' %}" download> Here</a></h2>
-                        <h2>Supply Order Form<a class="link" href="{% static 'boat_app/downloads/supply_form.pdf' %}" download> Here</a></h2>
+
+                    <div class="contact_info" id="contact_row">
+                        <div class="phone_link">
+                            <img src="{% static 'boat_app/stylesheets/images/telephone.png' %}" alt="Phone Pic"><h4><a href="tel:(844) 527-8326">(844) 527-8326</a></h4>
+                        </div>
+                        <div class="mail_link">
+                            <img src="{% static 'boat_app/stylesheets/images/mail.png' %}" alt="Mail Pic"><a href="mailto:info@jolietboatstore.com?Subject=Hello%20again"><h4>info@jolietboatstore.com</h4></a>
+                        </div>
+                        <div class="port_link">
+                            <img src="{% static 'boat_app/stylesheets/images/port.png' %}" alt="Port Pic"><h4>Address: Illinois & Michigan Canal State Trail,724 Railroad St, Joliet, IL 60436</h4>
+                        </div>
+                        <div class="job_link">
+                            <img src="{% static 'boat_app/stylesheets/images/job.png' %}" alt="Job Pic"><h4>To apply for a job with Joliet Boat Store, please send a cover letter together with your C.V. to: info@joliatboatstore.com <a class="link" href="{% static 'boat_app/downloads/job.pdf' %}" download> Here</a></h4>
+                        </div>
                     </div>
                     <!-- <div class="row">
                         <form method="post" action="https://formspree.io/dispatch@jolietboatstore.com"  name="contactform" class="contactform" id="formspree">
