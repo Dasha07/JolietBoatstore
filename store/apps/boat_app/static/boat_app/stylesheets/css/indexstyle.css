@@ -36,11 +36,11 @@ html{
     margin-right: 40px;
 }
 #logo {
-    margin-top: 0px;
-    height: 100px;
+    margin-top: 5px;
+    height: 90px;
     width: auto;
 }
-#parallax_1{
+#parallax_1, #parallax_5{
     background-image: url("../images/home_1.png");
     background-position: fixed;
 }
@@ -83,7 +83,7 @@ h3 {
     height: 500px;
     margin: 75px 40px;
     vertical-align: top;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 15px 20px;
 }
 #about_img img {
@@ -101,6 +101,7 @@ h3 {
     text-align: left;
 }
 #about_info h1{
+    color: #132672;
     text-decoration: none;
     font-size: 36pt;
     font-weight: 600;
@@ -110,17 +111,17 @@ h3 {
     font-weight: 600;
     text-align: left;
     line-height: 1.75;
+    color: #132672;
 }
 .white_box {
     width: 100%;
     margin: 0 auto;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,.8);
     padding: 35px;
     border: 2px solid #fff;
-    border-radius: 20px/50px;
     background-clip: padding-box;
     text-align: center;
-    margin-top: 75px;
+    padding-bottom: 50px;
 }
 #services_header {
     text-decoration: none;
@@ -191,7 +192,7 @@ img{
     margin: 25px 50px;
 }
 .phone_link h4 {
-    font-size: 10pt;
+    font-size: 15pt;
 }
 .phone_link img {
     height: 100px;
@@ -203,7 +204,7 @@ img{
     margin: 25px 50px;
 }
 .mail_link h4 {
-    font-size: 10pt;
+    font-size: 15pt;
 }
 .mail_link img {
     height: 100px;
@@ -215,9 +216,10 @@ img{
     margin: 25px 50px;
 }
 .port_link h4 {
-    font-size: 10pt;
+    font-size: 15pt;
     width: 11em;
     word-wrap: break-word;
+    color: #132672;
 }
 .port_link img {
     height: 100px;
@@ -229,9 +231,10 @@ img{
     margin: 25px 50px;
 }
 .job_link h4 {
-    font-size: 10pt;
+    font-size: 15pt;
     width: 11em;
     word-wrap: break-word;
+    color: #132672;
 }
 .job_link img {
     height: 100px;
