@@ -26,8 +26,8 @@ body p, body h1, body h3, body h4{
   margin-right: auto;
 
   /* Set width to your desired site width */
-  width: 1450px;
-  min-width: 1200px;
+  width: 100%;
+  min-width: 1300px !important;
   height: 100%;
 }
 #header {
