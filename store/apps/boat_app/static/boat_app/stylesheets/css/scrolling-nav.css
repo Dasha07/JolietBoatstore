@@ -32,16 +32,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 0px;
     text-align: center;
 }
-#home {
-    color: black;
-    background: url("../images/home.jpg");
-    padding-top: 0px;
-}
-#about {
-    color: black;
-    background: url("../images/home.jpg");
-    padding-top: 0px;
-}
 #services {
     color: black;
     background: #CECDD3;

@@ -6,6 +6,7 @@
 }
 .waste_block p {
     margin-top: 15px;
+    color: #132672;
 }
 #waste_info {
     text-align: center;
@@ -18,6 +19,7 @@
     font-size: 12px;
     text-align: left;
     font-weight: normal;
+    color: #132672;
 }
 #waste_info p {
     font-size: 18px;
