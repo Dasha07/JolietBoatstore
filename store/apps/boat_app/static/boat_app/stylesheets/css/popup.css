@@ -20,10 +20,10 @@
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
-.vendors_img:hover {
+/*.vendors_img:hover {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
-}
+}*/
 .vendors_img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
