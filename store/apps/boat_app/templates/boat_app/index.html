@@ -121,13 +121,19 @@
                             </div>
                         </div>
                         <div>
-                            <div class="vendor_box">
-                               <a class="vendor_button" id="feece" href="#popup1"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/oie.png' %}"></a>
-                               <a class="vendor_button" id="current_marine" href="#popup2"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/marine_logo_1.gif' %}"></a>
-                               <a class="vendor_button" id="humco" href="#popup3"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/Humco.png' %}"></a>
-                               <a class="vendor_button" id="imo" href="#popup4"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/imo.png' %}"></a>
-                               <a class="vendor_button" id="timco" href="#popup5"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/timco.png' %}"></a>
-                               <a class="vendor_button" id="perry" href="#popup6"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/perry_logo.png' %}"></a>
+                            <div class="vendor_box" id="vendor_container">
+                                <div class="vendor_row" id="vendor_top">
+                                    <h3>Services</h3><br>
+                                    <a class="vendor_button" id="current_marine" href="#popup2"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/marine_logo_1.gif' %}"></a>
+                                    <a class="vendor_button" id="imo" href="#popup4"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/imo.png' %}"></a>
+                                    <a class="vendor_button" id="perry" href="#popup6"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/perry_logo.png' %}"></a>
+                                </div>
+                                <div class="vendor_row" id="vendor_bot">
+                                    <h3>Supplies & Equipment</h3><br>
+                                    <a class="vendor_button" id="feece" href="#popup1"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/oie.png' %}"></a>
+                                    <a class="vendor_button" id="humco" href="#popup3"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/Humco.png' %}"></a>
+                                    <a class="vendor_button" id="timco" href="#popup5"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/timco.png' %}"></a>
+                                </div>
                             </div>
                             <div id="popup1" class="overlay">
     	                        <div class="popup">
@@ -227,7 +233,6 @@
                             </div>
                             <div id="port_link" class="contact_link">
                                 <img src="{% static 'boat_app/stylesheets/images/port.png' %}" alt="Port Pic"><h4>724 Railroad St<br>Joliet, IL 60436</h4>
-
                             </div>
                             <div id="job_link" class="contact_link">
                                 <img src="{% static 'boat_app/stylesheets/images/job.png' %}" alt="Job Pic"><h4> Joliet Boat Store<br><a class="link" href="{% static 'boat_app/downloads/job.pdf' %}" download>Application Form</a></h4>

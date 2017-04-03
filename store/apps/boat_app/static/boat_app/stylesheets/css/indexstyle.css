@@ -157,14 +157,22 @@ h3 {
     margin-top: 50px;
     margin-bottom: 20px;
 }
-#vendors{
-    padding-top: none;
+#vendor_container {
+    padding-bottom: 50px;
 }
 #vendors h1{
     font-size: 36pt;
     font-weight: 600;
     color: #132672;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.vendor_row h3{
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0 !important;
+}
+#vendor_bot h3{
+    margin-bottom: 40px;
 }
 img{
     border: none;
