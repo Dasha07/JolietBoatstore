@@ -279,3 +279,7 @@ a:link {
 a:hover {
     color: black;
 }
+.inline_block {
+    display: inline-block;
+    vertical-align: top;
+}
