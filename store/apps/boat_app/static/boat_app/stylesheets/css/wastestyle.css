@@ -16,10 +16,13 @@
     text-decoration: underline;
 }
 #recycles li {
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     font-weight: normal;
     color: #132672;
+}
+p {
+    font-size: 16px;
 }
 #waste_info p {
     font-size: 18px;
