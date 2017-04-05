@@ -14,18 +14,11 @@
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="navbar-fixed-top" style="margin-left: 0%; padding-left:50px; padding-bottom: 5px">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+            <div class="container-non-responsive navbar-fixed-top" style="margin-left: 0px; padding-left:50px; padding-bottom: 5px">
+                <div class="navbar-header page-scroll inline_block">
                     <a id="logoBrand" class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="{% static 'boat_app/stylesheets/images/logo1.png' %}" alt="Joliet Boat Store"></a>
                 </div>
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div class="collapse navbar-collapse navbar-ex1-collapse inline_block">
                     <ul class="nav navbar-nav">
                         <li style="padding: 25px 0;" class="hidden">
                             <a class="page-scroll" href="#page-top"></a>
@@ -114,13 +107,11 @@
             <div class="container-non-responsive">
                 <div class="parallax" id="parallax_3">
                     <div class="row" style="padding-top:95px;">
-                        <div class="col-lg-12">
-                            <div id="vendors_header">
-                                <h1>JBS Approved Vendors</h1>
-                            </div>
-                        </div>
                         <div>
                             <div class="vendor_box" id="vendor_container">
+                                <div id="vendors_header">
+                                    <h1>JBS Approved Vendors</h1>
+                                </div>
                                 <div class="vendor_row" id="vendor_top">
                                     <h3>Services</h3><br>
                                     <a class="vendor_button" id="current_marine" href="#popup2"><img class=vendor_img src="{% static 'boat_app/stylesheets/images/marine_logo_1.gif' %}"></a>
@@ -234,7 +225,7 @@
                                 <img src="{% static 'boat_app/stylesheets/images/port.png' %}" alt="Port Pic"><h4>724 Railroad St<br>Joliet, IL 60436</h4>
                             </div>
                             <div id="job_link" class="contact_link">
-                                <img src="{% static 'boat_app/stylesheets/images/job.png' %}" alt="Job Pic"><h4> Joliet Boat Store<br><a class="link" href="{% static 'boat_app/downloads/job.pdf' %}" download>Application Form</a></h4>
+                                <img src="{% static 'boat_app/stylesheets/images/job.png' %}" alt="Job Pic"><h4> Joliet Boat Store<br><a class="link" href="{% static 'boat_app/downloads/jbs_job_application.pdf' %}" download>Application Form</a></h4>
                             </div>
                         </div>
                     </div>
