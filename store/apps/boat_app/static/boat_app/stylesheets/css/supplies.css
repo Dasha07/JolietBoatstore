@@ -20,7 +20,7 @@
 .block_image img {
     display: inline-block;
     background-color: black;
-    margin-top: 30px;
+    margin: 30px 0;
     height: 370px;
     width: 470px;
     border: 2px solid black;
