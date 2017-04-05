@@ -5,15 +5,21 @@
     margin: 10px auto 20px;
 }
 .waste_block {
-    width: 300px;
-    margin: 0 10px;
+    width: 260px;
+    margin: 0 25px;
+    display: inline-block;
+    vertical-align: top;
 }
 .waste_block p {
     margin-top: 15px;
     color: #132672;
 }
+.waste_block h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
 #waste {
-    padding: 100px 10px 0 10px;
+    padding-top: 100px;
     margin: 0 auto;
 }
 #waste_2{
@@ -43,11 +49,11 @@ p {
     background-color: black;
     margin-top: 100px;
     height: auto;
-    width: 500px;
+    width: 300px;
     border: 2px solid black;
 }
 .section {
     text-align: center;
     margin: 0 auto;
-    height: 720px;
+    height: 600px;
 }
