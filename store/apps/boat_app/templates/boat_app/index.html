@@ -3,14 +3,14 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="Joliet Boat Store provides fuel, water, waste, power and supplies services for ships and boats in the Chicagoland area">
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/favicon-32x32.png' %}">
         <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
         <link href="{% static 'boat_app/stylesheets/css/popup.css' %}" rel="stylesheet">
-        <!-- <meta name="viewport" content="width=1190px;"> -->
-        <title>JBS</title>
+        <title>Joliet Boat Store</title>
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -64,11 +64,10 @@
                             <div id="about_info" class="about_block">
                                 <h1>About</h1>
                                 <p>
-                                    We started out like most towing families, as an accident. We have never known a   tug boat to stop and not need milk or bread or the usual, “would you mind if you get us some cigarettes." Before we knew it, we had six vehicles and expanded our services to fuel, water, trash, waste, crew changes and supplies.
+                                    We started out like most towing families, as an accident. We have never known a tug boat to stop and not need milk or bread or the usual, “would you mind if you get us some cigarettes." Before we knew it, we had six vehicles and expanded our services to fuel, water, trash, waste, crew changes and supplies.
                                 </p>
                                 <p>
-                                    Family owned and operated, we have been very fortunate to work within the towing industry and with the people it brings to our front door. If you are around the Chicagoland Area, come stop by our facility or give us a call and we would be more
-                                    than happy to help out in any way we can.
+                                    Family owned and operated, we have been very fortunate to work within the towing industry and with the people it brings to our front door. If you are around the Chicagoland Area, come stop by our facility or give us a call and we would be more than happy to help out in any way we can.
                                 </p>
                             </div>`
                         </div>
@@ -218,7 +217,7 @@
                         <div class="row">
                             <div class="col-md-12 contact">
                                 <h1>Contact Us</h1>
-                                <h3>Located at Mile Marker 286.5, we are directly north of the Brandon Road Lock<br> and Dam in Joliet, IL, above the cells on the right descending side.</h3>
+                                <h3>The Joliet Boat Store is located directly above the Brandon Rd Lock at Mile 286.5 on the Illinois Waterway</h3>
                             </div>
                         </div>
                         <div class='embed-container maps'>
@@ -239,70 +238,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="row">
-                        <form method="post" action="https://formspree.io/dispatch@jolietboatstore.com"  name="contactform" class="contactform" id="formspree">
-                            <div class="col-md-6 spacing">
-                                <fieldset>
-                                    <input name="First name" type="text" id="name" size="30" placeholder="First Name" value="{{ form.f_name }}">
-                                    <br>
-                                    <input name="Last name" type="text" id="name" size="30" placeholder="Last Name" value="{{ form.l_name }}">
-                                    <br>
-                                    <input name="_replyto" type="text" id="email" size="30" placeholder="Email" value="{{ form.email }}">
-                                    <br>
-                                    <input name="phone" type="text" id="phone" size="30" placeholder="Phone" value="{{ form.phone }}">
-                                    <br>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6 spacing">
-                                <fieldset>
-                                    <input name="subject" type="text" id="subject" size="30" placeholder="Subject" value="{{ form.subject }}">
-                                    <br>
-                                    <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Message" >{{ form.message }}</textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <input type="text" name="_gotcha" style="display:none" />
-                                    <button type="submit" class="btn btn-lg" id="submit" value="Submit">Send Message</button>
-                                </fieldset>
-                            </div>
-                        </form>
-                        <form method="post" action="/contact/submit"  name="contactform" class="contactform hidden" id="validationform">
-                            {% csrf_token %}
-                            <div class="col-md-6">
-                                <fieldset>
-                                    <input name="f_name" type="text" id="name" size="30" placeholder="First Name" value="{{ form.f_name }}">
-                                    <br>
-                                    <input name="l_name" type="text" id="name" size="30" placeholder="Last Name" value="{{ form.l_name }}">
-                                    <br>
-                                    <input name="email" type="text" id="email" size="30" placeholder="Email" value="{{ form.email }}">
-                                    <br>
-                                    <input name="phone" type="text" id="phone" size="30" placeholder="Phone" value="{{ form.phone }}">
-                                    <br>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6">
-                                <fieldset>
-                                    <input name="subject" type="text" id="subject" size="30" placeholder="Subject" value="{{ form.subject }}">
-                                    <br>
-                                    <textarea name="message" cols="40" rows="20" id="comments" placeholder="Message" >{{ form.message }}</textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <input type="text" name="_gotcha" style="display:none" />
-                                    <input type="submit" class="btn btn-lg" id="submit" value="Send Message">
-                                </fieldset>
-                            </div>
-                        </form>
-                        <div id="error_messages">
-                            {% if messages %}
-                                {% for message in messages %}
-                                    <br>
-                                    <h5>{{message}}</h5>
-                                {% endfor %}
-                            {% endif %}
-                        </div>-->
                 </div>
             </div>
         </section>
