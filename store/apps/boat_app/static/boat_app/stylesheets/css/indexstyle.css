@@ -32,6 +32,9 @@ body p, body h1, body h3, body h4{
     height: 100px;
     background-color: #FDFDFD!important;
 }
+#header .container-non-responsive {
+    height: 100px;
+}
 .navHead {
     height: 100px;
     padding: 40px 25px 0px 25px !important;
