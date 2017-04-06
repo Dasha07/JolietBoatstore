@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Joliet Boat Store provides crew transportation, groceries, supplies, potable water, fueling, waste disposal and more to the commercial maritime industry in the Chicagoland area.">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/favicon-32x32.png' %}">
+        <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/groceriesstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/supplies.css' %}" rel="stylesheet">
+        <title>Joliet Boat Store</title>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-non-responsive navbar-fixed-top" style="margin-left: 0px; padding-left:50px; padding-bottom: 5px;">
+                <div class="navbar-header page-scroll inline_block">
+                    <a id="logoBrand" class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="{% static 'boat_app/stylesheets/images/logo1.png' %}" alt="Joliet Boat Store"></a>
+                </div>
+                <div class="inline_block">
+                    <ul class="nav navbar-nav">
+                        <li style="padding:25px 0;" class="hidden">
+                            <a class="page-scroll" href="/#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#page-top">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" style="color:white; background-color:#132672;" href="/#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#vendors">Vendors</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#contact_us">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="grocery_supply" class="section">
+            <div class="container-non-responsive">
+                <h1>Groceries and Supplies</h1>
+                <div class="info_block">
+                    <div id="groceries_info" class="block_text">
+                        <h3>Groceries</h3>
+                        <p>
+                            Many boat store prices are less than desirable because of being marked up or covering huge overheads. This is why a gallon of milk can turn into a $10 purchase. We have a different approach, why not let the big chain grocery stores do what they do best with high volume and low costs?
+                        </p>
+                        <p>
+                            With most major stores within a 10 minute drive of our river location, you can shop for yourself or we can do the shopping for you. The best part is that we will be passing on the savings benefits, the same we're all used to, right to the customer.
+                        </p>
+                    </div>
+                    <h3>Download Grocery Form <a class="link" href="{% static 'boat_app/downloads/grocery.pdf' %}" download>Here</a></h3>
+                    <div class="block_image"><img id="groceries_img"  src="{% static 'boat_app/stylesheets/images/groceries_1.jpg' %}" alt="Groceries pic">
+                    </div>
+                </div>
+                <div class="info_block">
+                    <div id="supplies_info" class="block_text">
+                        <h3>Supplies</h3>
+                        <p>
+                            With reliability and ease of shipping these days, we can track down most things very quickly. You can send in supply orders that we would be happy to fill out quick and cheap. However, we also understand that sometimes you already have the supplies you need and shipping them to us makes more sense.
+                        </p>
+                        <p>
+                            Feel free to let us know if you want to send something to our location and we will unload and hand it off to your boat free of charge on arrival.
+                        </p>
+                    </div>
+                    <h3>Download Supply Order Form <a class="link" href="{% static 'boat_app/downloads/supply_form.pdf' %}" download>Here</a></h3>
+                    <div id="supplies_img" class="block_image"><img src="{% static 'boat_app/stylesheets/images/supplies_1.jpg' %}" alt="Supplies pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

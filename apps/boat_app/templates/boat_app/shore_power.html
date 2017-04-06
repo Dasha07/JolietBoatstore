@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Joliet Boat Store provides crew transportation, groceries, supplies, potable water, fueling, waste disposal and more to the commercial maritime industry in the Chicagoland area.">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/favicon-32x32.png' %}">
+        <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/shorestyle.css' %}" rel="stylesheet">
+        <title>Joliet Boat Store</title>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-non-responsive navbar-fixed-top" style="margin-left: 0px; padding-left:50px; padding-bottom: 5px;">
+                <div class="navbar-header page-scroll inline_block">
+                    <a id="logoBrand" class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="{% static 'boat_app/stylesheets/images/logo1.png' %}" alt="Joliet Boat Store"></a>
+                </div>
+                <div class="inline_block">
+                    <ul class="nav navbar-nav">
+                        <li style="padding:25px 0;" class="hidden">
+                            <a class="page-scroll" href="/#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#page-top">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" style="color:white; background-color:#132672;" href="/#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#vendors">Vendors</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#contact_us">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="shore" class="section">
+            <div class="container-non-responsive">
+                <div id="shore_info" class="shore_block">
+                    <h1>Shore Power</h1>
+                    <p>
+                        If your boat has extended periods of down time, we can offer large fuel and maintenance savings to it while it sits idle and hooks up to shore power. Our facility has 800 amp electric power with 10 shore power hook ups in either 208/220 or 460/480, as well as a marine electrician on staff to assist with hooking up and checking rotation. On top of the savings, our shore power services also help your company lessen your carbon footprint.
+                    </p>
+                </div>
+                <div id="shore_img" class="shore_block"><img src="{% static 'boat_app/stylesheets/images/shorepower_1.jpg' %}" alt="Shore Power pic">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

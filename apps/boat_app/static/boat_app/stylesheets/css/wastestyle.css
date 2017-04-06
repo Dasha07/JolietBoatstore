@@ -1,0 +1,59 @@
+.waste_header p{
+    text-align: center;
+    font-style: italic;
+    width: 520px;
+    margin: 10px auto 20px;
+}
+.waste_block {
+    width: 260px;
+    margin: 0 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.waste_block p {
+    margin-top: 15px;
+    color: #132672;
+}
+.waste_block h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+#waste {
+    padding-top: 100px;
+    margin: 0 auto;
+}
+#waste_2{
+    padding-left: 30px;
+}
+#waste_info {
+    text-align: center;
+}
+#waste_info h1{
+    text-decoration: underline;
+}
+#recycles li {
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+    color: #132672;
+}
+p {
+    font-size: 16px;
+}
+#waste_info p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+#waste_img img {
+    background-color: black;
+    margin-top: 100px;
+    height: auto;
+    width: 300px;
+    border: 2px solid black;
+}
+.section {
+    text-align: center;
+    margin: 0 auto;
+    height: 600px;
+}
