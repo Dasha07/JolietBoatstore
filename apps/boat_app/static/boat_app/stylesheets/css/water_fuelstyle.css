@@ -12,12 +12,11 @@
     margin-bottom: 20px;
 }
 .block_text h3{
-    text-decoration: underline;
     margin-bottom: 15px;
     text-align: center;
 }
 .block_text p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     line-height: 1.75;
 }
@@ -29,7 +28,4 @@
     padding-top: 100px;
     text-align: center;
     margin: 0;
-}
-h1 {
-    text-decoration: underline;
 }

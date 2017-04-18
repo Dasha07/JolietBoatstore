@@ -8,15 +8,15 @@
 .block_text {
     text-align: left;
     padding: 10px;
-    height: 460px;
+    height: 640px;
+    width: auto;
 }
 .block_text h3{
-    text-decoration: underline;
     margin-bottom: 15px;
     text-align: center;
 }
 .block_text p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     line-height: 1.75;
 }
@@ -26,12 +26,16 @@
     margin: 0;
     height: auto;
 }
-h1 {
-    text-decoration: underline;
-}
 .link {
     z-index: 2 !important;
 }
 .container {
     padding-bottom: 100px;
+}
+.block_link a{
+    color: #0F9DAB;
+    text-decoration: underline;
+}
+.block_link p {
+    color: #0F9DAB;
 }

@@ -9,11 +9,10 @@
     text-align: left;
 }
 #water_info h1{
-    text-decoration: underline;
     margin-bottom: 30px;
 }
 #water_info p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     line-height: 1.75;
 }

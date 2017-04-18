@@ -13,6 +13,7 @@
 .waste_block p {
     margin-top: 15px;
     color: #132672;
+    text-align: left;
 }
 .waste_block h4 {
     font-size: 20px;
@@ -26,11 +27,9 @@
     padding-left: 30px;
 }
 #waste_info {
-    text-align: center;
+    text-align: left;
 }
-#waste_info h1{
-    text-decoration: underline;
-}
+
 #recycles li {
     font-size: 15px;
     text-align: left;
