@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Joliet Boat Store provides crew transportation, groceries, supplies, potable water, fueling, waste disposal and more to the commercial maritime industry in the Chicagoland area.">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'boat_app/stylesheets/images/favicon-32x32.png' %}">
+        <link href="{% static 'boat_app/stylesheets/css/indexstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/contact.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/scrolling-nav.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/groceriesstyle.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/supplies.css' %}" rel="stylesheet">
+        <link href="{% static 'boat_app/stylesheets/css/points.css' %}" rel="stylesheet">
+        <title>Joliet Boat Store</title>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-non-responsive navbar-fixed-top" style="margin-left: 0px; padding-left:50px; padding-bottom: 5px;">
+                <div class="navbar-header page-scroll inline_block">
+                    <a id="logoBrand" class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="{% static 'boat_app/stylesheets/images/logo1.png' %}" alt="Joliet Boat Store"></a>
+                </div>
+                <div class="inline_block">
+                    <ul class="nav navbar-nav">
+                        <li style="padding:25px 0;" class="hidden">
+                            <a class="page-scroll" href="/#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#page-top">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" style="color:white; background-color:#132672;" href="/#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#vendors">Vendors</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll navHead" href="/#contact_us">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="points" class="section">
+            <div class="container-non-responsive">
+                <h1>Points of Interest</h1>
+                <div class="info_block_points">
+                    <div id="medical" class="block_text">
+                        <h2>Medical</h2>
+                        <div class="point_link">
+                            <h4><a href="https://www.eehealth.org/">Edward Hospital</a></h4>
+                            <h4><a href="https://goo.gl/maps/qGBj5y63nkB2">6600 IL-53<br>Woodridge, IL 60517</a></h4>
+                            <h4><a href="tel:(630) 369-6363">630-369-6363</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="http://www.advocatehealth.com/gsam">Good Samaritan Hospital</a></h4>
+                            <h4><a href="https://goo.gl/maps/CeCPuXXB24D2">3815 Highland Ave.<br>Downers Grove, IL 60515</a></h4>
+                            <h4><a href="tel:(630) 275-5900">630-275-5900</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="http://www.silvercross.org/">Silver Cross Hospital</a></h4>
+                            <h4><a href="https://goo.gl/maps/bYqr1una3o42">1900 Silver Cross Blvd.<br>New Lenox, IL 60451</a></h4>
+                            <h4><a href="tel:(815) 300-1100">815-300-1100</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="http://www.silvercross.org/">Silver Cross Urgent Care</a></h4>
+                            <h4><a href="https://goo.gl/maps/dN6dxw1UTLw">1051 Essington Rd.<br>Joliet, IL 60435</a></h4>
+                            <h4><a href="tel:(815) 300-2273">815-300-2273</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="https://physiciansimmediatecare.com/clinics/joliet-larkin/">Physicians Immediate Care</a></h4>
+                            <h4><a href="https://goo.gl/maps/pezjkMs8iYK2">800 N. Larkin Ave.<br>Joliet, IL 60435</a></h4>
+                            <h4><a href="tel:(815) 741-4300">815-741-4300</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="https://physiciansimmediatecare.com/clinics/bolingbrook/">Physicians Immediate Care</a></h4>
+                            <h4><a href="https://goo.gl/maps/ufWVALcTekn">391 S. Bolingbrook Dr.<br>Bolingbrook, IL 60440</a></h4>
+                            <h4><a href="tel:(630) 226-10066">630-226-1066</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_block_points">
+                    <div id="transportation" class="block_text">
+                        <h2>Transportation</h2>
+                        <div class="point_link">
+                            <h4><a href="https://www.amtrak.com/servlet/ContentServer?pagename=am/am2Station/Station_Page&code=JOL">Amtrak Train Station</a></h4>
+                            <h4><a href="https://goo.gl/maps/Hgi4kPRxkjS2">53 Mayor Art Schultz Dr.<br>Joliet, IL 60432</a></h4>
+                            <h4><a href="tel:(800) 872-7245">800-872-7245</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="https://www.enterprise.com/en/car-rental/locations/us/il/joliet-1518.html">Enterprise Rent-A-Car</a></h4>
+                            <h4><a href="https://goo.gl/maps/5UHGE1ctzMU2">2221 W. Jefferson St.<br>Joliet, IL 60435</a></h4>
+                            <h4><a href="tel:(815) 744-4900">815-744-4900</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="https://www.enterprise.com/en/car-rental/locations/us/il/willowbrook-kingy-hwy-15ad.html">Enterprise Rent-A-Car</a></h4>
+                            <h4><a href="https://goo.gl/maps/tzQFZAcjZ642">10s636 Kingery Hwy.<br>Willowbrook, IL 60527</a></h4>
+                            <h4><a href="tel:(630) 455-2700">630-455-2700</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="http://locations.greyhound.com/bus-stations/us/illinois/chicago/bus-station-560252">Greyhound Bus Station</a></h4>
+                            <h4><a href="https://goo.gl/maps/KdSeqDE76uN2">16655 Crawford Ave.<br>Markham, IL 60428</a></h4>
+                            <h4><a href="tel:(708) 333-2520">708-333-2520</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="http://chicago-mdw.worldairportguides.com/">Midway International Airport</a></h4>
+                            <h4><a href="https://goo.gl/maps/4e9n9ot8p582">5700 S. Cicero Ave.<br>Chicago, IL 60638</a></h4>
+                            <h4><a href="tel:(800) 832-6352">800-832-6352</a></h4>
+                        </div>
+                        <div class="point_link">
+                            <h4><a href="http://www.airport-ohare.com/">O’Hare International Airport</a></h4>
+                            <h4><a href="https://goo.gl/maps/MSjfLcZcAd72">10000 W. O’Hare Ave.<br>Chicago, IL 60666</a></h4>
+                            <h4><a href="tel:(800) 832-6352">800-832-6352</a></h4>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

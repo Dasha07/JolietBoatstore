@@ -19,6 +19,13 @@
     font-size: 20px;
     font-weight: 600;
 }
+.waste_block img {
+    width: 126px;
+    margin: 0 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 #waste {
     padding-top: 100px;
     margin: 0 auto;

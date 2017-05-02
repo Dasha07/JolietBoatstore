@@ -9,5 +9,6 @@ urlpatterns = [
     url(r'^shore/$', views.shore), #loads shore power page
     url(r'^water_fuel/$', views.water_fuel), #loads water fuel page
     url(r'^grocery_supply/$', views.groceries), #loads supplies and groceries page
-    url(r'^waste/$', views.waste) #loads waste page
+    url(r'^waste/$', views.waste), #loads waste page
+    url(r'^points/$', views.points) #loads points of interest page
 ]

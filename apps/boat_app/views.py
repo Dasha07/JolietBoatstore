@@ -67,3 +67,6 @@ def groceries(request):
 
 def waste(request):
     return render(request, "boat_app/waste.html")
+
+def points(request):
+    return render(request, "boat_app/points.html")
