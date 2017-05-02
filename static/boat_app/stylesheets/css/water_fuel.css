@@ -1,0 +1,37 @@
+.water_block {
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    margin: 0px 40px;
+    vertical-align: top;
+}
+#water_info {
+    text-align: left;
+}
+#water_info h1{
+    margin-bottom: 30px;
+}
+#water_info p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.75;
+}
+#water_img img {
+    background-color: black;
+    margin-top: 20px;
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+}
+#fuel_img img {
+    background-color: black;
+    margin-top: 20px;
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+}
+.section {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0;
+}

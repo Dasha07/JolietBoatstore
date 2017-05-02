@@ -1,0 +1,122 @@
+.vendor_box {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.8);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.vendor_button {
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  margin: 10px 75px;
+  border-radius: 20px/50px;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+#feece img:hover {
+    background: rgba(167, 0, 0, 0.1);
+}
+#current_marine img:hover {
+    background: rgba(120, 109, 7, 0.1);
+}
+#humco img:hover {
+    background: rgba(40, 22, 244, 0.1);
+}
+#imo img:hover {
+    background: rgba(62, 62, 62, 0.15);
+}
+#timco img:hover {
+    background: rgba(60, 60, 60, 0.15);
+}
+#perry img:hover {
+    background: rgba(3, 4, 107, 0.2);
+}
+/*.vendors_img:hover {
+    -webkit-filter: grayscale(0%);  Safari 6.0 - 9.0
+    filter: grayscale(0%);
+}*/
+.vendor_img {
+    width: auto;
+    height: auto;
+    max-width: 180px;
+    max-height: 140px;
+    border-radius: 10px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 200px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #3838D1;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3838D1;
+}
+.popup .close:hover {
+  color: #c30909;
+}
+.popup .pop_content {
+  max-height: 30%;
+  overflow: auto;
+}
+#feece {
+
+}
+#current_marine {
+    height: 150px !important;
+}
+#humco {
+
+}
+#imo {
+
+}
+#timco {
+
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}

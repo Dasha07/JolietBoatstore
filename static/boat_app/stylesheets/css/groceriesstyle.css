@@ -1,0 +1,41 @@
+.info_block {
+    display: inline-block;
+    width: 450px;
+    height: 900px;
+    margin: 0px 30px;
+    vertical-align: top;
+}
+.block_text {
+    text-align: left;
+    padding: 10px;
+    height: 640px;
+    width: auto;
+}
+.block_text h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.block_text p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.75;
+}
+.section {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0;
+    height: auto;
+}
+.link {
+    z-index: 2 !important;
+}
+.container {
+    padding-bottom: 100px;
+}
+.block_link a{
+    color: #0F9DAB;
+    text-decoration: underline;
+}
+.block_link p {
+    color: #0F9DAB;
+}

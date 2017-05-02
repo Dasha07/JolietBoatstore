@@ -1,0 +1,51 @@
+body {
+    background: none;
+}
+.parallax {
+    /* Set a specific height */
+    height:  100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*#parallax_5 {
+    background-image: url("../images/back2.jpg");
+    background-position: fixed;
+}*/
+.transport_block {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    margin: 0px 20px 0 20px;
+    vertical-align: top;
+}
+#transport_info {
+    text-align: left;
+    margin-right: 20px;
+}
+#transport_info h1{
+    margin-bottom: 30px;
+}
+#transport_info p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.75;
+}
+#transport_img img {
+    background-color: black;
+    margin-top: 100px;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+}
+.section {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0;
+    height: 720px;
+}
