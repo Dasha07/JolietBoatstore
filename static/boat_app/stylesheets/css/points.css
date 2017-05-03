@@ -1,0 +1,46 @@
+.points_block {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 1em;
+    vertical-align: top;
+}
+#medical {
+    text-align: -webkit-left;
+    color: #132672;
+    width: 570px;
+    padding: 20px;
+}
+#transportation {
+    text-align: -webkit-left;
+    color: #132672;
+    width: 570px;
+    padding: 20px;
+}
+.point_link {
+    color: #132672;
+    text-align: left;
+    display: inline-block;
+    padding: 20px 20px 20px 0px;
+    width: 250px;
+}
+a {
+    color: #132672;
+}
+#poi {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+h2 {
+    text-align: center;
+}
+.section {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+.info_block_points{
+    display: inline-block;
+    height: inherit;
+    vertical-align: top;
+}

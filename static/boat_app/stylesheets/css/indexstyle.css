@@ -51,7 +51,7 @@ body p, body h1, body h3, body h4{
     width: auto;
 }
 #parallax_1, #parallax_5{
-    background-image: url("../images/home_1.png");
+    background-image: url("../images/home_1.jpg");
     background-position: fixed;
 }
 
@@ -189,6 +189,7 @@ img{
 .services_block {
     height: 200px;
     width: auto;
+    display: inline-table;
 }
 .services_link {
     display: inline-block;
@@ -233,7 +234,7 @@ img{
     width: 100px;
     border: none;
 }
-.job_link {
+.job_link a{
     display: inline-block;
     margin: 25px 50px;
 }
@@ -243,7 +244,7 @@ img{
     word-wrap: break-word;
     color: #132672;
 }
-.job_link img {
+.job_link {
     height: 100px;
     width: 100px;
     border: none;
@@ -277,11 +278,9 @@ body {
 .highlight:hover {
     background-color: #132672;
 }
-a:link {
-    color: #132672 !important;
-}
+
 a:hover {
-    color: black;
+    color: #132672;
 }
 .inline_block {
     display: inline-block;
