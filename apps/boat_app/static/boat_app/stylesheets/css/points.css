@@ -22,19 +22,25 @@
     text-align: left;
     display: inline-block;
     padding: 20px 20px 20px 0px;
+    width: 250px;
 }
 a {
     color: #132672;
 }
+#poi {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+h2 {
+    text-align: center;
+}
 .section {
     padding-top: 100px;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
 }
 .info_block_points{
     display: inline-block;
-    width: 450px;
     height: inherit;
-    margin: 0px 30px;
     vertical-align: top;
 }

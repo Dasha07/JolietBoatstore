@@ -8,6 +8,9 @@
 #water_info {
     text-align: left;
 }
+.block_text {
+    margin-bottom: 0;
+}
 #water_info h1{
     margin-bottom: 30px;
 }
@@ -18,14 +21,12 @@
 }
 #water_img img {
     background-color: black;
-    margin-top: 20px;
     height: auto;
     width: 400px;
     border: 2px solid black;
 }
 #fuel_img img {
     background-color: black;
-    margin-top: 20px;
     height: auto;
     width: 400px;
     border: 2px solid black;
