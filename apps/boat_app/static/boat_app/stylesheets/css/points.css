@@ -30,9 +30,11 @@ a {
 #poi {
     margin-top: 40px;
     margin-bottom: 0;
+    padding-right: 80px;
 }
 h2 {
     text-align: center;
+    padding-right: 90px;
 }
 .section {
     padding-top: 100px;

@@ -56,7 +56,7 @@ body p, body h1, body h3, body h4{
 }
 
 #parallax_2, #parallax_3, #parallax_4  {
-    background-image: url("../images/background_1.jpg");
+    background-image: url("../images/home_2.jpg");
     background-position: fixed;
 }
 #slogan {
@@ -285,4 +285,17 @@ a:hover {
 .inline_block {
     display: inline-block;
     vertical-align: top;
+}
+
+.waste_padding {
+    padding-left: 10px;
+}
+
+.shore_padding {
+    padding-left: 70px;
+
+}
+
+.points_padding {
+    padding-left: 15px;
 }
