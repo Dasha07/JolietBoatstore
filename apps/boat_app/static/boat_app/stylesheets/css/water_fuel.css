@@ -36,3 +36,6 @@
     text-align: center;
     margin: 0;
 }
+.pager a {
+    color: #132672;
+}

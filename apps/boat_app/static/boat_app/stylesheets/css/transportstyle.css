@@ -49,3 +49,6 @@ body {
     margin: 0;
     height: 720px;
 }
+.pager a {
+    color: #132672;
+}

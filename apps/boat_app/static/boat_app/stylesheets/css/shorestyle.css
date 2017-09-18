@@ -29,3 +29,6 @@
     margin: 0;
     height: auto;
 }
+.pager a {
+    color: #132672;
+}

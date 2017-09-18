@@ -63,3 +63,6 @@ p {
     margin: 0 auto;
     height: 600px;
 }
+.pager a {
+    color: #132672;
+}

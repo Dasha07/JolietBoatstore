@@ -46,3 +46,7 @@ h2 {
     height: inherit;
     vertical-align: top;
 }
+
+.pager a {
+    color: #132672;
+}

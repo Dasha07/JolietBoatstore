@@ -39,6 +39,6 @@
 .block_link p {
     color: #0F9DAB;
 }
-.pager ul{
-    margin-top: 220px !important;
+.pager a {
+    color: #132672;
 }
