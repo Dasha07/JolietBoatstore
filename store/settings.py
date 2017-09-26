@@ -25,7 +25,7 @@ SECRET_KEY = 'zl&@z$b5ok%^#zs!11n)qk64gyp-^uz!7%h!-#j%_n+i6@#tc='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.jolietboatstore.com', '34.239.251.114', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.jolietboatstore.com', '34.239.251.114', '127.0.0.1']
 
 
 # Application definition
